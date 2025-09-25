@@ -1,0 +1,37 @@
+Veena wants to know how to converting the format of data type in programming.could you please help her to implements the program.
+
+Input Format
+
+Input consists of one integer and one character.
+First input corresponds to integer.
+second input corresponds to character.
+Constraints
+
+No Constraints
+
+Output Format
+
+Execute the data type values based on output.
+Sample Input 0
+
+65
+Z
+Sample Output 0
+
+Integer of 65 is A
+Character of Z is 90
+Sample Input 1
+
+88
+u
+Sample Output 1
+
+Integer of 88 is X
+Character of u is 117
+ANSWER:
+a=int(input())
+b=input()
+c=chr(a)
+d=ord(b)
+print(f"Integer of {a} is {c}".format(a))
+print(f"Character of {b} is {d}".format(b))
