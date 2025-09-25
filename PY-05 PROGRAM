@@ -1,0 +1,25 @@
+Diya wants to know how the decimal digit values are performing in programming.could you please help her to learn the decimal formatting.
+
+Input Format
+
+input consists of float
+Constraints
+
+No Constraints
+
+Output Format
+
+execute the values depends on the sample output format.
+Sample Input 0
+
+45.3456
+Sample Output 0
+
+45.34
+45.35
+ANSWER:
+import math
+a=float(input())
+res=int(a*100)/100
+print(res)
+print("{:.2f}".format(a))
