@@ -1,0 +1,43 @@
+Sila wants to know how to calculate the values using math function.can you please guide her to perform the math Calculations. Note:use the Floor, Ceil, Sqrt, Pow
+
+Input Format
+
+First Input corresponds to the float value
+Second input correspond to the Integer value is for square value.
+Third input correspond to the Integer value is for base value.
+Fourth input correspond to the Integer value is for power value.
+Constraints
+
+No Constraints
+
+Output Format
+
+Output corressponds to the calculation of Math functions.
+Sample Input 0
+
+76.78
+16
+2
+3
+Sample Output 0
+
+76
+77
+4
+8
+Submissions: 148
+Max Score: 10
+Difficulty: Medium
+Rate This Challenge:
+
+ANSWER:
+import math
+a=float(input())
+b=int(input())
+c=int(input())
+d=int(input())
+print(int(a))
+print(round(a))
+print(int(math.sqrt(b)))
+print(int(math.pow(c,d)))
+
