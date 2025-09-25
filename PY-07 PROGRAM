@@ -1,0 +1,27 @@
+sunil wants to know how to execute the string statement in programming.can you please guide him to execute the Statement.
+
+Input Format
+
+First input corresponds to the string.
+Constraints
+
+No Constraints
+
+Output Format
+
+Output corresponds to the string with the statement.
+Sample Input 0
+
+Sunil kumar
+Sample Output 0
+
+Hai Sunil kumar!    Welcome to Programming Language...
+Sample Input 1
+
+Senthil
+Sample Output 1
+
+Hai Senthil!    Welcome to Programming Language...
+ANSWER:
+a=input()
+print(f"Hai {a}! Welcome to Programming Language...")
