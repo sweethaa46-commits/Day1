@@ -1,0 +1,35 @@
+Kumar wants to know how to display the numbers in programming.can you please guide him to display the numbers.
+
+Input Format
+
+First input corresponds to the Integer Number.
+Second input corresponds to the Float Number.
+Constraints
+
+No Constraints
+
+Output Format
+
+First output corresponds to the Integer Number
+Second output corresponds to the Float Number
+Sample Input 0
+
+4
+5.678
+Sample Output 0
+
+4
+5.68
+Sample Input 1
+
+7
+8.9675
+Sample Output 1
+
+7
+8.97
+ANSWER:
+a=int(input())
+b=float(input())
+print(a)
+print("{:.2f}".format((b)))
